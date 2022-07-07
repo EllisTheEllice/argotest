@@ -15,6 +15,10 @@ spec:
     repoURL: https://github.com/elastic/helm-charts.git
     targetRevision: v7.17.3
     path: elasticsearch
+    helm:
+      values: |
+        persistence:
+          enabled: false
   syncPolicy:
     automated:
       prune: true
