@@ -13,7 +13,7 @@ spec:
   source:
     chart: elasticsearch
     repoURL: https://github.com/elastic/helm-charts.git
-    targetRevision: 7.17.3
+    targetRevision: v7.17.3
     path: elasticsearch
   syncPolicy:
     automated:
